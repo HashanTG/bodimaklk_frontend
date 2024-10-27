@@ -1,7 +1,7 @@
 import React from "react";
 import { CountdownTimer } from "../component/CountdownTimer";
 
-const LAUNCH_DATE = new Date("2025-06-01T12:00:00+05:30").getTime();
+const LAUNCH_DATE = new Date("2025-05-27T12:00:00+05:30").getTime();
 
 const ComingSoon: React.FC = () => (
   <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-indigo-900 via-purple-900 to-indigo-700">
