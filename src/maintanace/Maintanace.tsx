@@ -1,4 +1,4 @@
-const Maintenance = () => (
+const Maintanace = () => (
     <div className="flex items-center justify-center h-screen bg-yellow-100">
       <div className="text-center">
         <h1 className="text-4xl font-bold mb-4">Maintenance Mode</h1>
@@ -6,4 +6,4 @@ const Maintenance = () => (
       </div>
     </div>
   );
-  export default Maintenance;
+  export default Maintanace;
