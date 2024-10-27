@@ -7,7 +7,7 @@ const Hero: React.FC = () => {
 <div className="bg-[#F6C90E] w-full flex flex-col md:flex-row items-center px-4 md:px-12 py-8 relative overflow-hidden">
 
   {/* Left: Form & Heading */}
-  <div className="w-full md:w-1/2 flex flex-col justify-center">
+  <div className="w-full h-[500px] md:w-1/2 flex flex-col justify-center ml-[112px]">
     <h1 className="text-2xl md:text-4xl font-bold mb-6 text-[#2E4750]">
       "Find, Rent, Manage – Your Space, Your Way"
     </h1>
