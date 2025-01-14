@@ -33,7 +33,7 @@ const HomeSection: React.FC = () => {
       <img
         src="/back.png"
         alt=""
-        className="absolute left-0 top-[180px] w-full h-[580px] object-cover pointer-events-none select-none z-0"
+        className="absolute left-0 top-[180px] w-full h-[680px] object-cover pointer-events-none select-none z-0"
         aria-hidden="true"
         draggable={false}
       />

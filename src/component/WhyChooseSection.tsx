@@ -84,7 +84,7 @@ const WhyChooseSection: React.FC = () => {
             description="Find malicious keyboards installed on your device that could allow someone to record things you type (e.g. passwords)."
           />
           <FeatureCard
-            icon="/secure.png"
+            icon="/shield.png"
             title="Secure & Reliable"
             description="Check which apps can access your location, microphone or camera. Get alerted if a known tracking app is installed."
           />
