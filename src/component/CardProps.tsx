@@ -8,10 +8,10 @@ interface CardProps {
 }
 
 const Card: React.FC<CardProps> = ({ icon, title, description, image }) => (
-  <div className="bg-white rounded-xl border-2 border-yellow-300 shadow-md flex flex-col h-full transition-transform hover:scale-105">
-    <div className="flex items-center gap-2 px-6 pt-6">
-      <img src={icon} alt="" className="h-6 w-6" />
-      <span className="font-bold text-lg">{title}</span>
+  <div className="bg-white rounded-xl border-2 border-yellow-300 shadow-md flex flex-col h-[358px] transition-transform hover:scale-105">
+    <div className="flex flex-col items-start px-6 pt-6">
+      <img src={icon} alt="" className="h-6 w-6 mb-2" />
+      <span className="text-gray-900 font-bold text-lg">{title}</span>
     </div>
     <div className="px-6 pt-2 pb-4 flex-1">
       {description.map((line, idx) => (
@@ -21,19 +21,19 @@ const Card: React.FC<CardProps> = ({ icon, title, description, image }) => (
       ))}
     </div>
     <div className="px-6 pb-6">
-      <img src={image} alt="" className="w-full h-28 object-contain" />
+      <img src={image} alt="" className="w-full h-28 object-contain mx-auto" />
     </div>
   </div>
 );
 
 const HomeSection: React.FC = () => {
   return (
-    <section className="relative w-full flex flex-col items-center justify-center bg-white">
+    <section className="relative w-full flex flex-col items-center justify-center bg-white mb-[200px] mt-[100px]">
       {/* Yellow background image */}
       <img
-        src="/yellow-bg.png"
+        src="/back.png"
         alt=""
-        className="absolute left-0 top-[80px] w-full h-[340px] object-cover pointer-events-none select-none z-0"
+        className="absolute left-0 top-[180px] w-full h-[580px] object-cover pointer-events-none select-none z-0"
         aria-hidden="true"
         draggable={false}
       />
@@ -42,34 +42,34 @@ const HomeSection: React.FC = () => {
         {/* Cards */}
         <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
           <Card
-            icon="/tenant-icon.png"
+            icon="/negotiate_2172404.png"
             title="Tenants"
             description={[
               "Discover Your Next Room",
               "Find Your Match",
               "Stay Updated",
             ]}
-            image="/tenant-illustration.png"
+            image="/forrent.png"
           />
           <Card
-            icon="/manager-icon.png"
+            icon="/property-manager_17714211.png"
             title="Property Managers"
             description={[
               "Discover Your Next Room",
               "Find Your Match",
               "Stay Updated",
             ]}
-            image="/manager-illustration.png"
+            image="/manage_property.png"
           />
           <Card
-            icon="/admin-icon.png"
+            icon="/admin.png"
             title="Admins"
             description={[
               "Discover Your Next Room",
               "Find Your Match",
               "Stay Updated",
             ]}
-            image="/admin-illustration.png"
+            image="/adminback.png"
           />
         </div>
 
