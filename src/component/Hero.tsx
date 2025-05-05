@@ -4,8 +4,7 @@ const Hero: React.FC = () => {
   return (
       <div>
           {/* Main Section */}
-<div className="bg-[#F6C90E] mx-2 md:mx-auto  rounded-br-[3rem] rounded-tl-[3rem] 
-                w-full max-w-[1450px] min-h-[600px] flex flex-col md:flex-row items-center px-4 md:px-12 py-8 relative overflow-hidden">
+<div className="bg-[#F6C90E] w-full flex flex-col md:flex-row items-center px-4 md:px-12 py-8 relative overflow-hidden">
 
   {/* Left: Form & Heading */}
   <div className="w-full md:w-1/2 flex flex-col justify-center">
